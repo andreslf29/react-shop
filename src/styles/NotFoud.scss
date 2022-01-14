@@ -1,0 +1,32 @@
+@import 'vars';
+
+.notFound{
+    height: 100vh;
+    background-color: var(--very-light-pink);
+    display: grid;
+    place-content: center;
+
+    span{
+        font-size: 10rem;
+        color: var(--black);
+    }
+
+    p{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    a{
+        background-color: var(--hospital-green);
+        padding: .5em 1em;
+        text-decoration: none;
+        color: var(--black);
+        border-radius: 25px;
+
+        &:hover{
+            background-color: var(--black);
+            color: var(--white);
+            transition: all .2s ease-in;
+        }
+    }
+}
